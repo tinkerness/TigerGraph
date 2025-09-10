@@ -44,6 +44,23 @@ docker ps
 
 ### Access TigerGraph services
 
+- Inside container:
+```
+docker exec -it tigergraph bash
+```
+
+start the tiger graph services
+```
+gadmin start all
+```
+verify services are running
+```
+gadmin status
+```
+GSQL shell:
+```
+gsql
+```
 - GraphStudio (GUI): Open [http://localhost:14240](http://localhost:14240) in your browser.
   - Default login:
     - Username: ```tigergraph```
@@ -52,9 +69,4 @@ docker ps
 - REST API test: [http://localhost:9000/echo](http://localhost:9000/echo)
 ```
 curl http://localhost:9000/echo
-```
-- Inside container (optional):
-```
-docker exec -it tigergraph bash
-gsql
 ```
