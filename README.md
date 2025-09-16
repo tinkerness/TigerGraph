@@ -91,7 +91,7 @@ curl http://localhost:9000/echo
 ## Next Steps
 
 - **Design Schema** based on given data.
-  [01_Schema_Design](.\01_Schema_Design\schema_gsql.md)
+  [01_Schema_Design](01_Schema_Design/schema_gsql.md)
 
 - **Access GraphStudio** (GUI) at:
   👉 [http://localhost:14240](http://localhost:14240)
