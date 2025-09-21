@@ -152,6 +152,12 @@ Run this inside GSQL:
 gsql schema.gsql
 ```
 
+Incase of any previous loading job conflicts run this to clear all vertex and edge data instances without dropping the schema (similar to truncate):
+
+```bash
+CLEAR GRAPH STORE
+```
+
 ---
 
 ## 🔹 8. Next Steps
