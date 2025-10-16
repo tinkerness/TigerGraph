@@ -16,3 +16,13 @@ docker cp schema.gsql tigergraph:/home/tigergraph/db_files/schema.gsql
 ```bash
 gsql /home/tigergraph/db_files/schema.gsql
 ```
+
+- Copying an entire folder:
+```bash
+docker cp data tigergraph:/home/tigergraph/tiger_csvs
+```
+
+- Copying all contents of a folder:
+```bash
+docker cp data/. tigergraph:/home/tigergraph/tiger_csvs
+```
